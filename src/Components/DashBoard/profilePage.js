@@ -83,17 +83,118 @@ function ProfilePage(props) {
                                     <td>Dooley</td>
                                     <td>july@example.com</td>
                                 </tr>
+                                <tr>
+                                    <td>July</td>
+                                    <td>Dooley</td>
+                                    <td>july@example.com</td>
+                                </tr>
+                                <tr>
+                                    <td>July</td>
+                                    <td>Dooley</td>
+                                    <td>july@example.com</td>
+                                </tr>
+                                <tr>
+                                    <td>July</td>
+                                    <td>Dooley</td>
+                                    <td>july@example.com</td>
+                                </tr>
+                                <tr>
+                                    <td>July</td>
+                                    <td>Dooley</td>
+                                    <td>july@example.com</td>
+                                </tr>
+                                <tr>
+                                    <td>July</td>
+                                    <td>Dooley</td>
+                                    <td>july@example.com</td>
+                                </tr>
                             </tbody>
                         </table>
                     </div>
                     <div className='mainDivProfile2 mt-4'>
+                        <div className='d-flex justify-content-between'>
+                            <div className='d-flex'>
+                                <div className='Profileheading1'><h6>Margin Trading facility Status:</h6></div>
+                                <div>
+                                    <label className="switch">
+                                        <input
+                                            type="checkbox"
 
+                                        />
+                                        <div className="slider round"></div>
+                                    </label>
+                                </div>
+                            </div>
+                            <div className='d-flex ml-4'> 
+                                <div className='Profileheading1'><h6>Payout Status:</h6></div>
+                                <div className='ml-2'>
+                                    <select name="cars" id="cars">
+                                        <option value="volvo">Volvo</option>
+                                        <option value="saab">Saab</option>
+                                        <option value="mercedes">Mercedes</option>
+                                        <option value="audi">Audi</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div className='d-flex ml-4'>
+                                <div className='Profileheading1'><h6>Online Trading:</h6></div>
+                                <div className='ml-2'>
+                                    <label className="switch">
+                                        <input
+                                            type="checkbox"
+
+                                        />
+                                        <div className="slider round"></div>
+                                    </label>
+                                </div>
+                            </div>
+
+
+                        </div>
                     </div>
                     <div className='mainDivProfile3 mt-4'>
+                        <div className='Profileheading'><h6>Demat</h6></div>
+                        <table class="table table-bordered mt-3">
+                            <thead>
+                                <tr>
+                                    <th>Dp Code</th>
+                                    <th>Dp Id</th>
+                                    <th>Dp Name</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>John</td>
+                                    <td>Doe</td>
+                                    <td>john@example.com</td>
+                                </tr>
 
+                            </tbody>
+                        </table>
                     </div>
                     <div className='mainDivProfile4 mt-4'>
+                        <div className='Profileheading'><h6>Bank Details</h6></div>
+                        <table class="table table-bordered mt-3">
+                            <thead>
+                                <tr>
+                                    <th>Bank Name</th>
+                                    <th>Account no</th>
+                                    <th>Type</th>
+                                    <th>IFSC Code</th>
+                                    <th>MICR</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>John</td>
+                                    <td>Doe</td>
+                                    <td>john@example.com</td>
+                                    <td>Doe</td>
+                                    <td>john@example.com</td>
+                                </tr>
 
+                            </tbody>
+                        </table>
                     </div>
                 </div>
 
